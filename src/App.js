@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
@@ -6,6 +5,11 @@ function App() {
     <div className="App">
       <header className="App-header">
         <div>Workill Page</div>
+        <div>Python</div>
+        <div>Java</div>
+        <div>Spring</div>
+        <div>Django</div>
+        <div>Pattern</div>
       </header>
     </div>
   );
