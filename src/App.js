@@ -1,5 +1,5 @@
 import './App.css';
-import './DjangoPage.js';
+import DjangoPage from './component/DjangoPage.js';
 
 function App() {
   return (
@@ -9,7 +9,7 @@ function App() {
         <div>Python</div>
         <div>Java</div>
         <div>Spring</div>
-        <DjangoPage>
+        <DjangoPage/>
         <div>Pattern</div>
       </header>
     </div>
