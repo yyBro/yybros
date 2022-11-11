@@ -1,4 +1,5 @@
 import './App.css';
+import './DjangoPage.js';
 
 function App() {
   return (
@@ -8,7 +9,7 @@ function App() {
         <div>Python</div>
         <div>Java</div>
         <div>Spring</div>
-        <div>Django</div>
+        <DjangoPage>
         <div>Pattern</div>
       </header>
     </div>
