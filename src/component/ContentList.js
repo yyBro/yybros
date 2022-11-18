@@ -35,7 +35,7 @@ function ContentList(){
 
     return (
         <div>
-            {list.map(item => (<Item id={item.id} item={item.content}/>)
+            {list.map(item => (<Item key={item.id} item={item}/>)
 
                 )
             }
