@@ -1,5 +1,5 @@
 import './App.css';
-import DjangoPage from './component/DjangoPage';
+import ContentList from './component/ContentList';
 
 function App() {
   return (
