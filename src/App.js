@@ -6,12 +6,9 @@ function App() {
     <div className="App">
       <header className="App-header">
         <div>Workill Page</div>
-        <div>Python</div>
-        <div>Java</div>
-        <div>Spring</div>
-        <DjangoPage/>
-        <div>Pattern</div>
+        
       </header>
+      <ContentList/>
     </div>
   );
 }
