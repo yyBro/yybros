@@ -1,4 +1,5 @@
 import './App.css';
+import React from 'react';
 import ContentList from './component/ContentList';
 
 function App() {
