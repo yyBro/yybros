@@ -6,7 +6,7 @@ import { BrowserRouter } from 'react-router-dom';
 import Container from '@mui/material/Container';
 
 ReactDOM.render(
-  <BrowserRouter>
+  <BrowserRouter basename={process.env.PUBLIC_URL}>
     <Container fixed>
       <App />
     </Container>

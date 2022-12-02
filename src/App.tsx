@@ -8,11 +8,12 @@ import Contents from './Components/Contents';
 const App = () => {
   return (
     <Routes>
-        <Route path="/" element={<Sidebar />} />
+        <Route path="/" element={<Sidebar />} errorElement={<Sidebar />}/>
         <Route path="/about" element={<About />} />
         <Route path="/contents/:contentName/:pageName" element={<Contents />} /> 
         <Route path="/articles" element={<Articles />}>
         <Route path=":id" element={<Article />} />
+        
       </Route>
     </Routes>
   );
