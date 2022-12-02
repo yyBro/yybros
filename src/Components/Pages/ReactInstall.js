@@ -8,6 +8,7 @@ function ReactInstall(){
                 npm i @emotion/react
                 npm i @mui/styled-engine
                 npm i react-router-dom
+                Git 사용시 주의
             </p>
         </>
     );
